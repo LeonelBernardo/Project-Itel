@@ -1,0 +1,8 @@
+.image{
+    width: 70%;
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
