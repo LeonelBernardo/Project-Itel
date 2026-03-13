@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
 margin:0;
 padding:0;
@@ -12,7 +12,6 @@ color:#222;
 line-height:1.6;
 }
 
-/* NAVBAR */
 
 #navbar{
 display:flex;
@@ -43,7 +42,7 @@ color:#00b4ff;
 height:50px;
 }
 
-/* TITULOS */
+
 
 h1{
 text-align:center;
@@ -57,7 +56,7 @@ margin-bottom:20px;
 color:#0a1f44;
 }
 
-/* APRESENTAÇÃO */
+
 
 #apresentacao{
 text-align:center;
@@ -66,7 +65,7 @@ max-width:900px;
 margin:auto;
 }
 
-/* CURSOS */
+
 
 #cursos{
 padding:40px;
@@ -93,7 +92,7 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-/* PARCEIROS */
+
 
 #parceiros{
 padding:40px;
@@ -117,7 +116,6 @@ transition:0.3s;
 transform:scale(1.1);
 }
 
-/* GALERIA */
 
 .grid-galeria{
 display:grid;
@@ -136,7 +134,7 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-/* NOTICIAS */
+
 
 .noticias{
 padding:40px;
@@ -154,7 +152,6 @@ border-radius:8px;
 margin-bottom:10px;
 }
 
-/* FORMULÁRIO */
 
 form{
 max-width:400px;
@@ -186,7 +183,7 @@ button:hover{
 background-color:#00b4ff;
 }
 
-/* FOOTER */
+
 
 footer{
 margin-top:50px;
@@ -196,7 +193,7 @@ background-color:#0a1f44;
 color:white;
 }
 
-/* RESPONSIVO */
+
 
 @media(max-width:768px){
 
@@ -233,148 +230,3 @@ align-items:center;
 .atividades .galeria-atividades img:hover{
   transform: scale(1.05);
 }
-=======
-*{ margin:0; padding:0; 
-box-sizing:border-box; 
-font-family:Arial, Helvetica, 
-sans-serif;
-}
-body{ background-color:#ffffff; 
-color:#222; line-height:1.6;
-}
-/* NAVBAR */
-#navbar{
-display:flex; 
-justify-content:space-between; 
-align-items:center; padding:15px 
-40px; background-color:#0a1f44;
-}
-.menu{ list-style:none; 
-display:flex; gap:25px;
-}
-.menu a{ text-decoration:none; 
-color:white; font-weight:bold; 
-transition:0.3s;
-}
-.menu a:hover{ color:#00b4ff;
-}
-.logo{ height:50px;
-}
-/* TITULOS */ h1{ text-align:center; 
-margin:40px 0; color:#0a1f44;
-}
-h2{ text-align:center; 
-margin-bottom:20px; color:#0a1f44;
-}
-/* APRESENTAÇÃO */
-#apresentacao{
-text-align:center; padding:40px; 
-max-width:900px; margin:auto;
-}
-/* CURSOS */
-#cursos{
-padding:40px;
-}
-#cursos .curso{
-text-align:center;
-}
-#cursos{
-display:flex; 
-justify-content:center; gap:40px; 
-flex-wrap:wrap;
-}
-.curso img{ width:250px; 
-border-radius:8px; transition:0.3s;
-}
-.curso img:hover{ 
-transform:scale(1.05);
-}
-/* PARCEIROS */
-#parceiros{
-padding:40px; text-align:center;
-}
-.parceiros-logos{ display:flex; 
-justify-content:center; 
-flex-wrap:wrap; gap:25px; 
-margin-top:20px;
-}
-.parceiros-logos img{ height:60px; 
-transition:0.3s;
-}
-.parceiros-logos img:hover{ 
-transform:scale(1.1);
-}
-/* GALERIA */ .grid-galeria{ 
-display:grid; 
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); 
-gap:20px; padding:40px;
-}
-.grid-galeria img{ width:100%; 
-border-radius:8px; transition:0.3s;
-}
-.grid-galeria img:hover{ 
-transform:scale(1.05);
-}
-/* NOTICIAS */ .noticias{ 
-padding:40px; max-width:900px; 
-margin:auto;
-}
-.noticia{ margin-bottom:40px;
-}
-.noticia img{ width:100%; 
-border-radius:8px; 
-margin-bottom:10px;
-}
-/* FORMULÁRIO */ form{ 
-max-width:400px; margin:auto; 
-display:flex; flex-direction:column; 
-gap:10px; padding:30px;
-}
-input, textarea{ padding:10px; 
-border:1px solid #ccc; 
-border-radius:5px;
-}
-button{ padding:12px; border:none; 
-background-color:#0a1f44; 
-color:white; font-weight:bold; 
-border-radius:5px; cursor:pointer; 
-transition:0.3s;
-}
-button:hover{ 
-background-color:#00b4ff;
-}
-/* FOOTER */ footer{ 
-margin-top:50px; padding:20px; 
-text-align:center; 
-background-color:#0a1f44; 
-color:white;
-}
-/* RESPONSIVO */ 
-@media(max-width:768px){
-#navbar{
-flex-direction:column; gap:10px;
-}
-.menu{ flex-direction:column; 
-align-items:center;
-}
-#cursos{
-flex-direction:column; 
-align-items:center;
-}
-}
-.atividades .galeria-atividades{ 
-  display: grid; 
-  grid-template-columns: 
-  repeat(auto-fit, minmax(200px, 
-  1fr)); gap: 20px; padding: 20px;
-}
-.atividades .galeria-atividades img{ 
-  width: 100%; height: auto; 
-  border-radius: 8px; transition: 
-  transform 0.3s;
-}
-.atividades .galeria-atividades 
-img:hover{
-  transform: scale(1.05);
-}
->>>>>>> e1275f8 (mudança da pagina da galeria,noticias,login e style)
